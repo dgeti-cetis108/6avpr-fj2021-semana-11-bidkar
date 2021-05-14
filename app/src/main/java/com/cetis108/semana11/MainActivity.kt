@@ -23,8 +23,14 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, SmsActivity::class.java)
                 startActivity(intent)
             }
-            R.id.itemMenuMainAge -> {}
-            R.id.itemMenuMainPhone -> {}
+            R.id.itemMenuMainAge -> {
+                val intent = Intent(this, AgeActivity::class.java)
+                startActivity(intent)
+            }
+            R.id.itemMenuMainPhone -> {
+                val intent = Intent(this, PhoneActivity::class.java)
+                startActivity(intent)
+            }
             R.id.itemMenuMainCamera -> {}
             R.id.itemMenuMainRegister -> {}
         }
