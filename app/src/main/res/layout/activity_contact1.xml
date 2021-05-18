@@ -26,14 +26,14 @@
         android:layout_marginTop="37dp"
         android:ems="10"
         android:inputType="textEmailAddress"
-        app:layout_constraintEnd_toEndOf="@+id/editTextContact1Phone"
+        app:layout_constraintEnd_toEndOf="@+id/editTextContact1PhoneNumber"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/editTextContact1Phone"
-        app:layout_constraintTop_toBottomOf="@+id/editTextContact1Phone" />
+        app:layout_constraintStart_toStartOf="@+id/editTextContact1PhoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/editTextContact1PhoneNumber" />
 
     <EditText
         android:hint="Teléfono"
-        android:id="@+id/editTextContact1Phone"
+        android:id="@+id/editTextContact1PhoneNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
@@ -56,13 +56,13 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextContact1Email" />
 
     <EditText
+        android:hint="Apellidos"
         android:id="@+id/editTextContact1Lastname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="46dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
         app:layout_constraintEnd_toEndOf="@+id/editTextContact1Firstname"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/editTextContact1Firstname"
